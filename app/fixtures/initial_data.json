@@ -16,5 +16,43 @@
             "groups": [],
             "user_permissions": []
         }
+    },
+    {
+        "model": "store.category",
+        "pk": 1,
+        "fields": {
+            "title": "Computer",
+            "slug": "computer"
+        }
+    },
+    {
+        "model": "store.category",
+        "pk": 2,
+        "fields": {
+            "title": "Sport",
+            "slug": "sport"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "title": "Drone",
+            "slug": "drone",
+            "description": "This is the description for the drone",
+            "price": 99.99
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "title": "USB lamp",
+            "slug": "usb-lamp",
+            "description": "The lamp",
+            "price": 4.99
+        }
     }
 ]
